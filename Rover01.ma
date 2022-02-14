@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
-//Name: Rover_Geo_Fixed.ma
-//Last modified: Fri, Feb 11, 2022 01:29:03 PM
+//Name: Rover01.ma
+//Last modified: Fri, Feb 11, 2022 01:29:20 PM
 //Codeset: 1252
 requires maya "2022";
 requires "mtoa" "4.2.3";
@@ -12,7 +12,7 @@ fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202106180615-26a94e7f8c";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19042)";
 fileInfo "license" "student";
-fileInfo "UUID" "98A93B1A-4575-24A2-A1C9-EA9E5BD2EEC2";
+fileInfo "UUID" "ACE48D47-4464-EF7F-54FF-CD95175161E4";
 createNode transform -s -n "persp";
 	rename -uid "DACA31D1-4E77-DF28-A881-0CB78CF3576F";
 	setAttr ".v" no;
@@ -44113,4 +44113,4 @@ connectAttr "groupId336.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId337.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId338.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId339.msg" ":initialShadingGroup.gn" -na;
-// End of Rover_Geo_Fixed.ma
+// End of Rover01.ma
